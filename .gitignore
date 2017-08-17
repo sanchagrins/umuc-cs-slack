@@ -9,6 +9,7 @@ __pycache__
 
 # Heroku Files
 .env
+settings.cfg
 
 # Sublime Files
 SlackInvite.sublime-workspace
@@ -19,5 +20,5 @@ docs/_build/
 # Selnium Files
 geckodriver.log
 
-#Static Files
+# Static Files
 slack_invite/slack_invite/staticfiles
