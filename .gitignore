@@ -5,9 +5,10 @@
 # Django Files
 db.sqlite3
 __pycache__
-
-# Complied Python
 *.pyc
+
+# Heroku Files
+.env
 
 # Sublime Files
 SlackInvite.sublime-workspace
