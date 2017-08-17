@@ -1,52 +1,15 @@
-
-body:after{
-    content:"";
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background: url(../img/pattern.svg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+body {
+	padding-top: 50px;
 }
 
-h1 {
-    font-family: 'Amaranth', sans-serif;
-    font-size: 60px;
-    line-height:65px;
-    text-align: center;
-    color: #fff;
-}
-
-h2 {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
-    font-size: 35px;
-    line-height: 40px;
-    color: #5a616B; 
-}
-
-.form-signin {
-	max-width: 330px;
-	padding: 15px;
-	margin:  auto;
-}
-
-.form-signin input[type="email"] {
-    font-size: 16px;
-    margin-bottom: -1px;
-    padding: 10px;
-    height: auto;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+a.terms:link {
+	color: #2c3e50;
 }
 
 .footer {
     position: absolute;
     bottom: -100;
-    padding: 0;
+    padding: 50px;
     right: 0;
     left: 0;
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
@@ -54,25 +17,36 @@ h2 {
     color: #5a616B;
 }
 
-.img-responsive {
-    max-width: 150px;
+.navbar-brand {
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+  padding: 18px 10px;
+  font-size: 30px;
+  line-height: 21px;
+  height: 60px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
 }
 
-.h1_upper {
-    text-transform: uppercase;
+.navbar-icon {
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+  padding: 18px 10px;
+  font-size: 19px;
+  line-height: 21px;
+  height: 60px;
+  color: #fff;
+}
+.navbar-icon:hover,
+.navbar-icon:focus {
+  text-decoration: none;
 }
 
-.button {
-    background-color: #ff6b6b; /* Cherry Pink */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+@media (min-width: 768px) {
+  .navbar > .container .navbar-title,
+  .navbar > .container-fluid .navbar-title {
+    margin-left: -15px;
+  }
 }
-
-.button1 {border-radius: 4px;}
