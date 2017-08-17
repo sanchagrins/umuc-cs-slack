@@ -9,7 +9,6 @@ __pycache__
 
 # Heroku Files
 .env
-settings.cfg
 
 # Sublime Files
 SlackInvite.sublime-workspace
