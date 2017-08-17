@@ -18,5 +18,6 @@ print(path+'/settings.cfg')
 config.read(path + '/settings.cfg')
 
 slack_url = get_env_variable('SLACK_URL')
+print(slack_url)
 slack_team = get_env_variable('SLACK_TEAM')
 slack_token = get_env_variable('SLACK_TOKEN')
