@@ -1,4 +1,0 @@
-[SLACK-SETTINGS]
-SLACK_TEAM=Team Name
-SLACK_URL=TEAM-NAME.slack.com
-SLACK_TOKEN=<enter slack token>
