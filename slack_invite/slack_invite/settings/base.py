@@ -25,8 +25,9 @@ def get_env_variable(var_name):
     try:
         return os.environ[var_name]
     except KeyError:
-        error_msg = "Set the %s environment variable" % var_name
-        raise ImproperlyConfigured(error_msg)
+        # error_msg = "Set the %s environment variable" % var_name
+        # raise ImproperlyConfigured(error_msg)
+        return ''.join([random.SystemRandom().choice('abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)') for i in range(50)])
  
 SECRET_KEY = get_env_variable('SECRET_KEY')
 
